@@ -1,0 +1,1 @@
+fplot('funtest1',[0 6])
