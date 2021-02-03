@@ -1,0 +1,11 @@
+x1=[0:0.1:5];
+y1=exp(-1.2*x1);
+x2=[-pi:0.02:pi];
+y2=cos(x2);
+subplot(1,2,1)
+plot(x1,y1),xlabel('x1'),ylabel('y1')
+subplot(2,2,2)
+plot(x2,y2),xlabel('x2'),ylabel('y2')
+subplot(2,2,4)
+fplot('cos(x)+sin(x)',[-2,2]),...
+xlabel('x3'),ylabel('y3')
